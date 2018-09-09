@@ -4,10 +4,10 @@
 
 Random_UD::Random_UD()
 {
-    x_Counter=time(0)%8707;
+    x_Counter=20*time(0)%8707;
 }
 
-Random_UD::Random_UD(unsigned int a){
+Random_UD::Random_UD(int a){
     x_Counter=a;
 }
 

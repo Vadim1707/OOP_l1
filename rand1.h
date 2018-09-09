@@ -11,15 +11,18 @@ class rand1 : public Random_UD
         virtual ~rand1();
         inline void Generate_one();
         void show_x();
-        void Generate(int);
+        void Generate();
+        void print();///best after generate
 
 
     protected:
 
     private:
-        const unsigned int m=8707;
-        const unsigned int a=70;
-        const unsigned int c=1067;
+        const  int m=9091;
+        const  int a=70;
+        const  int c=1067;
+        int n=10000;
+
 };
 
 #endif // RAND1_H

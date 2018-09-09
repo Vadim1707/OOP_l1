@@ -6,14 +6,16 @@ class Random_UD
 {
     public:
         Random_UD();
-        Random_UD(unsigned int);
+        Random_UD( int);
         virtual ~Random_UD();
         /**unsigned int Generate();
         void help_func();*/
 
+
     protected:
-        unsigned int x_Counter;
-        int arr_Counter[10]={};
+        int x_Counter;
+          int arr_Counter[10]={};
+
 };
 
 #endif // RANDOM_H
