@@ -1,10 +1,8 @@
-#include <iostream>
 #include "rand1.h"
-using namespace std;
 
 int main()
 {
-   work_func();
-   out_func();
+   randomize();
+   show_results_in_percent();
     return 0;
 }
