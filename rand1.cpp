@@ -4,7 +4,7 @@
 
 const int m=9091, a=70, c=1067;
 int arr_saver[10]={};
-int x=time(0)%9091;
+int x=time(0)%m;
 int IT=100000;
 
 void work_func(){ //IT iterations
